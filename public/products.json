@@ -1,0 +1,64 @@
+[
+    {
+        "id": "1" ,
+        "name": "FIFA-2022",
+        "img": "https://upload.wikimedia.org/wikipedia/en/6/6c/FIFA_22_Cover.jpg",
+        "price": 240
+    },
+
+    {
+        "id": "2" ,
+        "name": "Call of Duty: Black OPs-II",
+        "img": "http://wiki.cemu.info/images/thumb/9/98/COD_BO2.JPEG/295px-COD_BO2.JPEG",
+        "price": 210
+    },
+
+    {
+        "id": "3" ,
+        "name": "FARCRY 5",
+        "img": "https://cdn.cdkeys.com/700x700/media/catalog/product/f/a/far_cry_5_pc.jpg",
+        "price": 250
+    },
+
+    {
+        "id": "4" ,
+        "name": "Pokemon Legend Arceus",
+        "img": "https://static-ie.gamestop.ie/images/products/276192/3max.jpg",
+        "price": 180
+    },
+
+    {
+        "id": "5" ,
+        "name": "GTA-IV",
+        "img": "https://m.media-amazon.com/images/M/MV5BYWQyNTY1NzAtMGJiYi00ZTcwLWE0ZjktYjY4YTZkMzA1YzZmXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+        "price": 240
+    },
+
+    {
+        "id": "6" ,
+        "name": "Sniper 3",
+        "img": "https://store-images.s-microsoft.com/image/apps.60340.70375210190043797.f2f0980e-6270-4f39-93f7-5a9b8c06b079.9b1e061e-3f0a-40dc-a035-9dde160e0d6a",
+        "price": 230
+    },
+
+    {
+        "id": "7" ,
+        "name": "IGI 2",
+        "img": "https://m.media-amazon.com/images/I/51ZHE3Z72NL._AC_.jpg",
+        "price": 160
+    },
+
+    {
+        "id": "8" ,
+        "name": "Need for Speed Underground 2",
+        "img": "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+        "price": 200
+    },
+    
+    {
+        "id": "9" ,
+        "name": "Assassin's Creed Syndicate",
+        "img": "https://image.api.playstation.com/cdn/EP0001/CUSA02376_00/dHz2YAR7qq5RGU46Mj61foWXcajRq9DJ.png",
+        "price": 250
+    }
+]
