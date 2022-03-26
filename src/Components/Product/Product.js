@@ -9,7 +9,7 @@ const Product = (props) => {
                 <img src={img} className='img-fluid' alt="" />
                 <h3>{name}</h3>
                 <h4>Price:${price}</h4>
-                <button className='button'>Add to Cart</button>
+                <button className='button w-100'>Add to Cart</button>
             </div>
         </div>
     );
