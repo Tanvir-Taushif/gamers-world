@@ -1,8 +1,9 @@
 import React from 'react';
-const Cart = () => {
+const Cart = (props) =>{
+    const {cartArray}=props;
     return (
         <div>
-            
+            <p>{cartArray}</p>
         </div>
     );
 };

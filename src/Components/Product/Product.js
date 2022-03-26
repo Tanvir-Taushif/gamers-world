@@ -11,9 +11,9 @@ const Product = (props) => {
         <div className="col-12 col-md-4">
             <div className='prod text-center'>
                 <img src={img} className='img-fluid' alt="" />
-                <h3>{name}</h3>
-                <h4>Price:${price}</h4>
-                <button onClick={()=>handleAddToCart(name)} className='w-100'>Add to Cart <FontAwesomeIcon icon={faShoppingCart} /></button>
+                <h4>{name}</h4>
+                <p>Price:${price}</p>
+                <button onClick={()=>handleAddToCart(name)} className=' btn w-100'>Add to Cart <FontAwesomeIcon icon={faShoppingCart} /></button>
             </div>
         </div>
     );

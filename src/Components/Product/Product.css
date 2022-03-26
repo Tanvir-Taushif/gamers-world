@@ -1,3 +1,13 @@
 .prod{
-    border: 2px solid black;
+    box-shadow: 2px 2px 10px;
+}
+.prod img{
+    height: 300px;
+}
+.btn{
+    border: none;
+    background-color: #61dafb;
+}
+.btn:hover{
+    background-color: coral;
 }
