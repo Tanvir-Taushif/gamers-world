@@ -8,11 +8,11 @@ const Product = (props) => {
     const{product,handleAddToCart}=props;
     const{id,name,img,price}=product;
     return (
-        <div className="col-12 col-md-4">
+        <div className="col-sm-12 col-md-4">
             <div className='prod text-center'>
                 <img src={img} className='img-fluid' alt="" />
                 <h4>{name}</h4>
-                <p>Price:${price}</p>
+                <h5>Price:${price}</h5>
                 <button onClick={()=>handleAddToCart(name)} className=' btn w-100'>Add to Cart <FontAwesomeIcon icon={faShoppingCart} /></button>
             </div>
         </div>

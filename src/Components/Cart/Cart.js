@@ -1,9 +1,18 @@
 import React from 'react';
+import './Cart.css'
 const Cart = (props) =>{
-    const {cartArray}=props;
+    const {cart,chooseOne,chooseAgain,select}=props;
     return (
-        <div>
-            <p>{cartArray}</p>
+        <div id='cart-box' className='text-center'>
+            <h1>Cart</h1>
+                  {
+                      cart.map(product=><p>{product}</p>)
+                  }
+                  <button className='cart-btn' onClick={chooseOne}>Choose One for Me</button><br /><br />
+                  {
+                      select.map(product=><p>{product}</p>)
+                  }
+                  <button className='cart-btn' onClick={chooseAgain}>Choose Again</button>
         </div>
     );
 };
