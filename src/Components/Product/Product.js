@@ -8,7 +8,7 @@ const Product = (props) => {
     const{product,handleAddToCart}=props;
     const{id,name,img,price}=product;
     return (
-        <div className="col-sm-12 col-md-4">
+        <div className="col-12 col-md-6 col-lg-4">
             <div className='prod text-center'>
                 <img src={img} className='img-fluid' alt="" />
                 <h5 className='mt-2 fw-bold'>{name}</h5>
