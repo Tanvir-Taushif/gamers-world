@@ -1,5 +1,6 @@
 import './App.css';
 import Shop from './Components/Shop/Shop'
+import Question from './Components/Question/Question';
 function App() {
   return (
     <div className="App">
@@ -8,6 +9,7 @@ function App() {
       </header>
       <main>
        <Shop></Shop>
+       <Question></Question>
       </main>
     </div>
   );

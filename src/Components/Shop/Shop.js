@@ -14,8 +14,10 @@ const Shop = () => {
     },[]);
 
     const addToCart=product=>{
-        const newCart=[...cart,product];
-        setCart(newCart);
+        if(!cart.includes(product)){
+            const newCart=[...cart,product];
+            setCart(newCart);
+        }
     }
     const chooseOne=()=>{
         const index=Math.floor(Math.random()*cart.length);
